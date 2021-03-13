@@ -1,0 +1,2 @@
+# MiniBoard
+Board Mini project

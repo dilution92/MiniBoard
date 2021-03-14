@@ -6,14 +6,12 @@ import org.springframework.web.servlet.ModelAndView;
 
 @org.springframework.stereotype.Controller
 public class Controller {
-	
-	
-	@RequestMapping(value = "/", method = {RequestMethod.GET,RequestMethod.POST} )
+
+	@RequestMapping(value = "/", method = {RequestMethod.GET,RequestMethod.POST})
 	public ModelAndView index() {
 		ModelAndView mv = new ModelAndView();
 		
-		mv.setViewName("mainPage");
+		mv.setViewName("index");
 		return mv;
 	}
-
 }
